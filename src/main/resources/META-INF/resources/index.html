@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+    <meta charset="UTF-8">
+    <title>Formulario de ingreso de estudiantes</title>
+    </head>
+   <body>
+     <form enctype="multipart/form-data" method="post" action="/procesarformulario">
+         <b>Nombres:</b> <input type="text" name="firstName" maxlength="50"></br>
+         <b>Apellidos:</b> <input type="text" name="secondName" maxlength="50"></br>
+         <b>Correo:</b> <input type="text" name="email" maxlength="50"></br>
+         <b>Codigo:</b> <input type="text" name="codigo" maxlength="50"></br>
+         <b>Foto:</b> <input type="file" name="photo" accept="application/octet-stream"></br>
+         <input type="submit" value="Enviar"> <input type="reset" value="Borrar">
+     </form>
+</body>
+</html>
